@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './App.css';
+import './index.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Dashboard from './Layouts/Dashboard';
+import { RoutesPage } from './Routes/RoutesPage';
+import { Detail } from './Pages/Cars';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Detail/> */}
+    <RoutesPage/>
+    {/* <Dashboard/> */}
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
